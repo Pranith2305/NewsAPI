@@ -32,7 +32,7 @@ function NewsApp() {
   }, [url]);
 
   return (
-    <div className="App flex flex-col items-center min-h-screen bg-#F0F0F0">
+    <div className="App flex flex-col items-center min-h-screen bg-#F0F0F0"> 
       <h1 className='font-bold text-3xl text-center my-3'>Top News Articles (India)</h1>
       {isLoading && <p>Loading news articles...</p>}
       {error && <p>Error: {error}</p>}
